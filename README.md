@@ -24,8 +24,13 @@ you use or discuss this dataset in your work.
 
 ## Data Format for VideoCC 
 
-The data is provided [here](https://storage.cloud.google.com/videocc_public_files/video_cc_public.csv) as a single CSV file with the following columns: 
+The data is provided [here](https://storage.googleapis.com/videocc3m/video_cc_public.csv)(note the file should start downloading immediately) as a single CSV file with the following columns: 
 
 Video URL, Start timestamp (microseconds), End timestamp(microseconds), Caption. 
+
+The data will not be exactly the same as the dataset used to train models in the
+paper but should be similar. Note that some sections of YouTube videos might contain static frames
+that are panned in or out. These can be filtered out using a motion filtering
+tool. 
 
 
